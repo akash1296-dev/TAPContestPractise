@@ -37,6 +37,4 @@ class CustomAdapter(private val listContest: List<CustomViewModel>) : RecyclerVi
         return listContest.size
     }
 
-
-
 }

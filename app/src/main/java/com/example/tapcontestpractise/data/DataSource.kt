@@ -6,10 +6,10 @@ class DataSource {
         private val participantList = ArrayList<ParticipantModel>()
 
         fun createList() {
-            contestList.add(ContestModel(1,"Title For Contest - 1","Small Description for Contest - 1"))
-            contestList.add(ContestModel(2,"Title For Contest - 2","Small Description for Contest - 2"))
-            contestList.add(ContestModel(3,"Title For Contest - 3","Small Description for Contest - 3"))
-            contestList.add(ContestModel(4,"Title For Contest - 4","Small Description for Contest - 4"))
+            contestList.add(ContestModel(1,"Title For Contest - 1","Small Description for Contest - 1",0,"Long Description of Contest -1",2019,2020))
+            contestList.add(ContestModel(2,"Title For Contest - 2","Small Description for Contest - 2",1,"Long Description of Contest -1",2019,2020))
+            contestList.add(ContestModel(3,"Title For Contest - 3","Small Description for Contest - 3",0,"Long Description of Contest -1",2019,2020))
+            contestList.add(ContestModel(4,"Title For Contest - 4","Small Description for Contest - 4",1,"Long Description of Contest -1",2019,2020))
         }
 
         fun createParticipantList() {

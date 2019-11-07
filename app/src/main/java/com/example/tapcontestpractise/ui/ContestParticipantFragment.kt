@@ -40,7 +40,7 @@ class ContestParticipantFragment : Fragment() {
         arrayList.addAll(DataSource.getParticipantList())
         arrayList.addAll(DataSource.getContestList())
 
-        rv_list.adapter = CustomAdapter(arrayList)
+        //rv_list.adapter = CustomAdapter(arrayList)
     }
 
 
